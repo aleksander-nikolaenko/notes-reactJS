@@ -1,0 +1,37 @@
+:root {
+  --accent-cl: #3653f2;
+  --hover-cl: #1a3fcb;
+
+  /*BACKGROUND COLORS*/
+  --primary-cl: #dbeafe;
+  --secondary-cl: #6b7280;
+  --icon-cl: #9ca3af;
+
+  /* TEXT COLORS */
+  --primary-txt-cl: #9ca3af;
+  --secondary-txt-cl: #111827;
+
+  /*BUTTONS*/
+  --btn-cl: #f3f4f6;
+
+  /*OTHER COLORS*/
+  --white-cl: #ffffff;
+  --black-cl: #000000;
+
+  /* TRANSITION */
+  --transition: 200ms ease-in;
+
+  /*FONTS*/
+  --font-family: 'Roboto', sans-serif;
+
+  /*FONT SIZE*/
+  --title: 30px;
+  --subtitle: 20px;
+  --text-lg: 16px;
+  --text-md: 14px;
+  --text-sm: 12px;
+
+  /*FONT WEIGHT*/
+  --bold: 700;
+  --regular: 400;
+}
