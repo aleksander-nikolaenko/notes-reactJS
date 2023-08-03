@@ -1,5 +1,17 @@
+import { PageWrapper } from 'components/Wrappers/PageWrapper';
+import { Table } from 'components/Table';
+import { TableHeader } from 'components/Table/TableHeader';
+
 import s from './HomePageComponent.module.scss';
 
 export const HomePageComponent = () => {
-  return <div className={s.title}>HomePageComponent</div>;
+  return (
+    <PageWrapper>
+      <Table caption='Main Table'>
+        <TableHeader
+          headerList={['Name', 'Created', 'Category', 'Content', 'Dates', '']}
+        />
+      </Table>
+    </PageWrapper>
+  );
 };

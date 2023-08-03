@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+  border-spacing: 0 16px;
+  border-collapse: separate;
+  table-layout: auto;
+}
+
+.caption {
+  position: sticky;
+  top: 0px;
+  font-size: var(--subtitle);
+  font-weight: var(--bold);
+  color: var(--secondary-txt-cl);
+  background-color: var(--white-cl);
+}

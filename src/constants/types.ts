@@ -1,4 +1,4 @@
-type Month =
+export type Month =
   | 'January'
   | 'February'
   | 'March'
@@ -12,11 +12,11 @@ type Month =
   | 'November'
   | 'December';
 
-type Day = `${number}` | `${number}${number}`;
+export type Day = `${number}`;
 
-type Year = `${number}${number}${number}${number}`;
+export type Year = `${number}`;
 
-type DateFormat = `${Month} ${Day}, ${Year}`;
+export type DateFormat = `${Month} ${Day}, ${Year}`;
 
 export type Categories = 'Task' | 'Random Thought' | 'Idea';
 
