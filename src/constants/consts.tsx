@@ -13,7 +13,7 @@ export const ACTIVE_DATA: Note[] | [] = [
   },
   {
     id: '2',
-    name: 'The teory of... ',
+    name: 'The theory of... ',
     created: 'April 27, 2021',
     category: 'Random Thought',
     content: 'The evolution...',

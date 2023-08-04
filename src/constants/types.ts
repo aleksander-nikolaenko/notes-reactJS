@@ -20,6 +20,8 @@ export type DateFormat = `${Month} ${Day}, ${Year}`;
 
 export type Categories = 'Task' | 'Random Thought' | 'Idea';
 
+export type NotesType = 'activeNotes' | 'archivedNotes';
+
 export interface Icons {
   [key: string]: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
 }

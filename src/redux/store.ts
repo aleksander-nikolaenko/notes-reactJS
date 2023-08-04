@@ -1,4 +1,4 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 
 import {
   persistStore,
@@ -10,25 +10,10 @@ import {
   REGISTER,
 } from 'redux-persist';
 
-import storage from 'redux-persist/lib/storage';
-import persistReducer from 'redux-persist/es/persistReducer';
-
-import textReducer from './textSlice';
-
-const persistConfig = {
-  key: 'text',
-  storage,
-  whitelist: ['text'],
-};
-
-const rootReducer = combineReducers({
-  text: textReducer,
-});
-
-const persistedReducer = persistReducer(persistConfig, rootReducer);
+import { notesReducer } from './notesSlice';
 
 export const store = configureStore({
-  reducer: persistedReducer,
+  reducer: { notes: notesReducer },
 
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
