@@ -34,3 +34,21 @@ export interface Note {
   content: string;
   dates: string;
 }
+
+export interface SummaryData {
+  id: string;
+  category: Categories;
+  active: number;
+  archived: number;
+}
+
+export interface HeaderList {
+  key: string;
+  value: string | JSX.Element;
+}
+export interface ButtonListProp {
+  id: string;
+  className?: string;
+  icon: JSX.Element;
+  onClick?: () => void;
+}

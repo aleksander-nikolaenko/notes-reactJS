@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.formInputLabel {
+  font-size: var(--text-lg);
+  color: var(--primary-txt-cl);
+}
+
+.noteNameInput {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--secondary-txt-cl);
+  background-color: var(--white-cl);
+  outline: none;
+  border: 2px solid var(--primary-cl);
+  &:focus {
+    border-color: var(--primary-txt-cl);
+  }
+}
+
+.noteCategorySelect {
+  width: 100%;
+  padding: 9px 8px;
+  border-radius: 8px;
+  color: var(--secondary-txt-cl);
+  background-color: var(--white-cl);
+  outline: none;
+  border: 2px solid var(--primary-cl);
+  &:focus {
+    border-color: var(--primary-txt-cl);
+  }
+}
+.noteContentInput {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 8px;
+  color: var(--secondary-txt-cl);
+  background-color: var(--white-cl);
+  outline: none;
+  border: 2px solid var(--primary-cl);
+  &:focus {
+    border-color: var(--primary-txt-cl);
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 28px;
+  padding-right: 16px;
+}

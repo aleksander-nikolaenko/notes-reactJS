@@ -1,0 +1,11 @@
+.button {
+  width: 24px;
+  height: 24px;
+  transition: var(--transition);
+  &:hover {
+    transform: scale(1.1);
+  }
+  & svg {
+    fill: var(--black-cl);
+  }
+}

@@ -1,0 +1,13 @@
+.button {
+  padding: 6px 16px;
+  background-color: var(--btn-cl);
+  border: solid 2px var(--secondary-cl);
+  border-radius: 8px;
+  transition: transform var(--transition);
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    transform: scale(1);
+  }
+}
